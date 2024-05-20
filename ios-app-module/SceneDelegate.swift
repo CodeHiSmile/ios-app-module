@@ -6,9 +6,12 @@
 //
 
 import UIKit
+import SwiftUI
+import FirebaseCore
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
+    
     var window: UIWindow?
 
 
